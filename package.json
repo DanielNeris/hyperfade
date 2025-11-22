@@ -1,0 +1,48 @@
+{
+  "name": "hyperfade",
+  "version": "0.0.2",
+  "description": "Secure time-based ephemeral storage for Hyperdrive. Automatically unlock and delete content with tamper-resistant timestamps.",
+  "keywords": [
+    "hyperdrive",
+    "ephemeral",
+    "expiry",
+    "time-based",
+    "garbage-collection",
+    "auto-delete",
+    "security",
+    "p2p"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./lib/time.js": "./lib/time.js"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "brittle \"test/**/*.test.js\"",
+    "test:unit": "brittle \"test/unit/*.test.js\"",
+    "test:integration": "brittle \"test/integration/*.test.js\"",
+    "example:delete": "node examples/delete.js",
+    "example:visible": "node examples/visible.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "brittle": "^3.19.1"
+  },
+  "peerDependencies": {
+    "hyperdrive": "^11.13.4",
+    "corestore": "^7.6.1"
+  }
+}
