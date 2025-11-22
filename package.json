@@ -1,6 +1,6 @@
 {
   "name": "hyperfade",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "Secure time-based ephemeral storage for Hyperdrive. Automatically unlock and delete content with tamper-resistant timestamps.",
   "keywords": [
     "hyperdrive",
