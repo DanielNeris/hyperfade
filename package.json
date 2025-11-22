@@ -22,7 +22,8 @@
   "files": [
     "index.js",
     "lib",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "test": "brittle \"test/**/*.test.js\"",
@@ -33,10 +34,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/DanielNeris/hyperfade.git"
+  },
+  "homepage": "https://github.com/DanielNeris/hyperfade#readme",
+  "bugs": {
+    "url": "https://github.com/DanielNeris/hyperfade/issues"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   },
   "devDependencies": {
     "brittle": "^3.19.1"
