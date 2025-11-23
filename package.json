@@ -46,8 +46,8 @@
   "devDependencies": {
     "brittle": "^3.19.1"
   },
-  "peerDependencies": {
-    "hyperdrive": "^11.13.4",
-    "corestore": "^7.6.1"
+  "dependencies": {
+    "corestore": "^7.6.1",
+    "hyperdrive": "^13.0.2"
   }
 }
