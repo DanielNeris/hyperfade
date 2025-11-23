@@ -330,7 +330,7 @@ All metadata is validated before processing:
 
 - **ID format**: Alphanumeric, hyphens, underscores only
 - **Timestamps**: Must be finite numbers within reasonable bounds
-- **File sizes**: Meta files limited to 1MB
+- **File sizes**: Meta files limited to 5MB
 - **Structure**: Required fields validated, invalid data rejected
 
 ### Deletion Verification
